@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<filter-conf>
+  <version>20170320</version>
+  <isOpen>true</isOpen>
+  <filter-name>Multimedia_Daemon_List</filter-name>
+    <dirac>
+        <name>com.oppo.music</name>
+        <attribute>music</attribute>
+
+        <name>com.oppo.video</name>
+        <attribute>video</attribute>
+    </dirac>
+
+    <volume>
+        <name>com.tencent.tvoem</name>
+        <attribute>forbid</attribute>
+
+        <name>com.cdbabyjoy.ecepark</name>
+        <attribute>streammute</attribute>
+
+        <name>com.hifimusic.player</name>
+        <attribute>streammute</attribute>
+
+        <name>null</name>
+        <attribute>no_need_mute_in_call</attribute>
+
+        <name>com.smile.gifmaker</name>
+        <attribute>kill</attribute>
+
+        <name>com.coloros.findmyphone</name>
+        <attribute>permit</attribute>
+
+        <name>android.media.cts</name>
+        <attribute>permit</attribute>
+    </volume>
+
+    <control>
+        <name>MultimediaService</name>
+        <attribute>true</attribute>
+
+        <name>setMode</name>
+        <attribute>true</attribute>
+
+        <name>recordConflict</name>
+        <attribute>false</attribute>
+
+        <name>streamAdjust</name>
+        <attribute>true</attribute>
+
+        <name>setspeakerphoneOn</name>
+        <attribute>true</attribute>
+
+        <name>killMediaserver</name>
+        <attribute>true</attribute>
+
+        <name>streamMute</name>
+        <attribute>true</attribute>
+
+        <name>killApp</name>
+        <attribute>true</attribute>
+
+        <name>releaseAudiotrack</name>
+        <attribute>false</attribute>
+
+        <name>setBluetoothScoOn</name>
+        <attribute>true</attribute>
+
+        <name>setMicrophoneMute</name>
+        <attribute>false</attribute>
+
+        <name>smartvolumeRing</name>
+        <attribute>false</attribute>
+
+        <name>setStreamVolume</name>
+        <attribute>true</attribute>
+    </control>
+
+    <zenmode>
+        <name>com.tencent.mobileqq</name>
+        <attribute>null</attribute>
+
+        <name>com.tencent.mm</name>
+        <attribute>wechat_mute</attribute>
+    </zenmode>
+
+    <game-bt-noise>
+        <name>com.tencent.feiji</name>
+        <attribute>null</attribute>
+
+        <name>com.tencent.tmgp.sgame</name>
+        <attribute>null</attribute>
+
+        <name>com.tencent.tmgp.asura</name>
+        <attribute>null</attribute>
+
+        <name>com.popcap.pvz2</name>
+        <attribute>null</attribute>
+
+        <name>com.tencent.tmgp.pvz2</name>
+        <attribute>null</attribute>
+    </game-bt-noise>
+
+    <google-default-logic>
+        <name>android.media.cts</name>
+        <attribute>null</attribute>
+    </google-default-logic>
+
+</filter-conf>

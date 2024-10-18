@@ -1,0 +1,21 @@
+service servicemanager /system/bin/servicemanager
+    class core
+    user system
+    group system readproc
+    critical
+    onrestart restart healthd
+    onrestart restart zygote
+    onrestart restart audioserver
+    onrestart restart media
+    onrestart restart surfaceflinger
+    onrestart restart inputflinger
+    onrestart restart drm
+    onrestart restart cameraserver
+#ifdef VENDOR_EDIT
+#Yan.Bin@Swdp.Android.OppoDebug.AssertTip, 2015/12/30, add for asserttip.
+    onrestart restart oppoasserttip
+#Canjie.Zheng@Swdp.Android.OppoDebug.CriticalLog, 2016/01/11, add for critical log.
+   onrestart restart criticallog
+#endif /* VENDOR_EDIT */
+    writepid /dev/cpuset/system-background/tasks
+

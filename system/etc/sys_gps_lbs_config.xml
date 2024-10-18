@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<blacklist>
+<pkg n="com.cebbank.bankebb" />
+<pkg n="com.gzhj.shenlanshaonian.nearme.gamecenter" />
+<pkg n="com.gzlxd.huluwawdxjg.nearme.gamecenter" />
+<pkg n="com.gzhj.bolimotuojisukuangbiao.oppo" />
+<pkg n="com.happyelements.AndroidAnimal" />
+<pkg n="com.SZHCYT.GGBondAdventure.nearme.gamecenter" />
+<pkg n="com.QQ.KJYS" />
+<pkg n="com.sythealth.fitness" />
+<pkg n="com.tencent.zebra" />
+<pkg n="org.cocos2d.fishingjoy3" />
+<pkg n="org.cocos2dx.FishingJoy2" />
+</blacklist>
+<frblacklist>
+<pkg n="com.android.cts" />
+<pkg n="com.google.android.apps.maps" />
+<pkg n="com.nianticlabs.pokemongo" />
+<pkg n="com.yxiaomei.yxmclient" />
+</frblacklist>

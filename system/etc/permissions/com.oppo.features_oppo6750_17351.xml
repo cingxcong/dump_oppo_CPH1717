@@ -1,0 +1,14 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+
+<permissions>
+    <!-- guoling@MultiMedia.Display.Service, 2016/08/24, Add for multibis backlight 16061 -->
+    <feature name="oppo.multibits.dimming.support" />
+    <!-- Bin.Wang@Plf.Framework, 2016/05/10, Add for screen on low memory clear -->
+    <feature name="oppo.lowramclear.support" />
+    <!-- Le.Li@EXP.MultiMedia.Display.Service.Feature, 2017/05/19, Add for protect eyes -->
+    <feature name="oppo.eyeprotect.support" />
+    <!-- Zequan.Wang@EXP.System.BuildConfig, 2017/07/27, Add for opera browser not in build -->
+    <feature name="oppo.operabrowser.notsupport" />
+    <!-- Likuan.Ren@EXP.AD.BuildConfig, 2017/09/05, Add for show animation after unlock quickly-->
+    <feature name="oppo.settings.system_start_loading.support" />
+</permissions>

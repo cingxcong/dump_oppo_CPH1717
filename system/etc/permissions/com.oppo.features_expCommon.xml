@@ -1,0 +1,10 @@
+<!-- This file is used by Exp.  DO NOT MODIFY. -->
+
+<permissions>
+  <feature name="oppo.version.exp" />
+  <!-- Likuan.Ren@Prd6.System.BuildConfig.Config.Feature , 2016/10/18, add for Exp AFW and RuntimePermission -->
+  <feature name="android.software.managed_users" />
+  <feature name="oppo.runtime.permission.alert.support" />
+  <!-- laizhijie@Plf.Comm, 2017/05/04, add for wlan assistant -->
+  <feature name="oppo.common_center.wlan.assistant" />
+</permissions>

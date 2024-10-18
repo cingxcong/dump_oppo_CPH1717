@@ -1,0 +1,4 @@
+<permissions>
+    <!-- low ram device feature for below 2G . -->
+    <feature name="oppo.memory.auto.silence.reboot" />
+</permissions>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>20161031</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_luckymoney_config_list</filter-name>
+    <keyURLinfo>wx.gtimg.com/hongbao/</keyURLinfo>
+    <keyDNSinfo>wx.gtimg.com</keyDNSinfo>
+    <delayTimeout>60000</delayTimeout>
+    <Qtag>Q.msg.TroopMsgProxy</Qtag>
+    <Qmsg>msgType:-2025</Qmsg>
+</filter-conf>
